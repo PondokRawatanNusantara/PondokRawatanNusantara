@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - Pondok Rawatan Nusantara</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EAF6FF; /* Soft Blue Background */
+            color: #002B5B; /* Dark Blue Text */
+        }
+
+        header {
+            background-color: #004C99; /* Deep Blue */
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366; /* Dark Navy */
+        }
+
+        nav a {
+            color: #FFFFFF; /* White */
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #87CEEB; /* Light Blue */
+            color: #003366; /* Dark Navy */
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .content h2 {
+            color: #004C99; /* Deep Blue */
+            text-align: center;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .product-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-item img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product-item h3 {
+            color: #004C99; /* Deep Blue */
+        }
+
+        .product-item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .product-item .price {
+            font-size: 18px;
+            color: #004C99; /* Deep Blue */
+            font-weight: bold;
+        }
+
+        .booking-button, .whatsapp-button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .booking-button {
+            background-color: #003366; /* Dark Blue */
+        }
+
+        .booking-button:hover {
+            background-color: #004C99;
+        }
+
+        .whatsapp-button {
+            background-color: #25D366; /* WhatsApp Green */
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1DA851;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #003366; /* Dark Navy */
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="GAMBAR WEBSITE/logo.png" alt="Logo Pondok Rawatan Nusantara">
+        <h1>Produk Kami</h1>
+    </header>
+
+    <!-- Navigation Panel -->
+    <nav>
+        <a href="index.html">Laman Utama</a>
+        <a href="servis-perempuan.html">Rawatan Perempuan</a>
+        <a href="servis-lelaki.html">Rawatan Lelaki</a>
+        <a href="produk.html">Produk PRN</a>
+        <a href="be.html">Produk BE</a>
+        <a href="info.html">Informasi</a>
+        <a href="contact.html">Hubungi Kami</a>
+    </nav>
+
+    <!-- Content -->
+    <div class="content">
+        <h2>Produk Tradisional</h2>
+
+        <!-- Product Grid -->
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\papan-guasa.png" alt="Papan Guasa Thobib">
+                <h3>Papan Guasa Thobib</h3>
+                <p>Papan Guasa Tanduk Kerbau untuk urutan dan kesihatan fizikal.</p>
+                <p class="price">RM20.00</p>
+   
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\minyak-2.jpg" alt="Minyak Aromaterapi">
+                <h3>Minyak Aromaterapi Thobib</h3>
+                <p>Minyak Aromaterapi untuk menghilangkan kebas dan sakit saraf.</p>
+                <p class="price">RM30.00</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\gummy.jpg" alt="Ceelia Pastil">
+                <h3>Ceelia Pastil</h3>
+                <p>Gummy yang mengandungi campuran herba daripada Quercus Infectoria, Labisia Pumila, Pueraria Montana, Param, dan Polyneura.</p>
+                <p class="price">RM40.00</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Pondok Rawatan Nusantara. All rights reserved.
+    </footer>
+</body>
+</html>

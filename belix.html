@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk BE - Pondok Rawatan Nusantara</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EAF6FF; /* Soft Blue Background */
+            color: #002B5B; /* Dark Blue Text */
+        }
+
+        header {
+            background-color: #004C99; /* Deep Blue */
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366; /* Dark Navy */
+        }
+
+        nav a {
+            color: #FFFFFF; /* White */
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #87CEEB; /* Light Blue */
+            color: #003366; /* Dark Navy */
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .content h2 {
+            color: #004C99; /* Deep Blue */
+            text-align: center;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .product-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-item img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product-item h3 {
+            color: #004C99; /* Deep Blue */
+        }
+
+        .product-item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .product-item .price {
+            font-size: 18px;
+            color: #004C99; /* Deep Blue */
+            font-weight: bold;
+        }
+
+        .booking-button, .whatsapp-button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .booking-button {
+            background-color: #003366; /* Dark Blue */
+        }
+
+        .booking-button:hover {
+            background-color: #004C99;
+        }
+
+        .whatsapp-button {
+            background-color: #25D366; /* WhatsApp Green */
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1DA851;
+        }
+
+        .info-button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            text-align: center;
+            background-color: #002B5B; /* Dark Blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .info-button:hover {
+            background-color: #004C99; /* Slightly lighter blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>BELIXZ</h1>
+    </header>
+
+    <!-- Navigation Panel -->
+    <nav>
+        <a href="index.html">Laman Utama</a>
+        <a href="servis-perempuan.html">Rawatan Perempuan</a>
+        <a href="servis-lelaki.html">Rawatan Lelaki</a>
+        <a href="produk.html">Produk PRN</a>
+        <a href="be.html">Produk BE</a>
+        <a href="info.html">Informasi</a>
+        <a href="contact.html">Hubungi Kami</a>
+    </nav>
+
+    <!-- Content -->
+    <div class="content">
+        <h2>BELIXZ</h2>
+
+        <!-- Product Grid -->
+        <div class="product-grid">
+           <!-- Product 1 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\slendmeal-pro.jpg" alt="SlendMeal Pro">
+                <h3>BElixz SLENDMEAL PRO</h3>
+                <p>BElixz SlendMeal PRO adalah minuman diet seimbang dengan 18g protein tumbuhan, 8g serat, dan 25 vitamin & mineral. Memberi rasa kenyang, menyokong otot, dan kawalan berat badan.</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\livcore.jpg" alt="Livcore">
+                <h3>BElixz LIVCORE</h3>
+                <p>Menyokong kesihatan hati, BElixz LIVCORE mengandungi Ekstrak Biji Brokoli, Ekstrak Milk Thistle, Ekstrak Articok, Ekstrak Oakwood Perancis dan Ekstrak Kunyit.</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\shiruto.png" alt="Shiruto">
+                <h3>BElixz SHIRUTO</h3>
+                <p>Mengandungi ekstrak gandum fermentasi IP-PA1, Vitamin C, dan Beta-glucan. Proses fermentasi & ekstraksinya dipatenkan secara antarabangsa untuk kualiti terbaik.</p>
+  
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\befil.jpg" alt="Befil">
+                <h3>Belixz BEFIL</h3>
+                <p>Mulakan hari sihat dengan BEFIL! Diformulasi dengan L-Arginine, CoQ10, serta ekstrak Delima, Bit & Tomato untuk kesejahteraan menyeluruh.</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\I-VXION.png" alt="I-VXION">
+                <h3>Belixz I-VXION</h3>
+                <p>BElixz I-VXION menjaga dan melindungi mata dengan ekstrak Marigold yang dipatenkan, serta ekstrak Maqui Berry & Black Currant. Diperkaya dengan Lutein, Zeaxanthin, dan Anthocyanin untuk kesihatan mata.</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\maqnfiq.png" alt="Maqnifiq">
+                <h3>Belixz MAQNIFIQ</h3>
+                <p>MAQNIFIQ adalah formulasi unik gabungan kolagen dengan beri, rosemary, dan ekstrak limau gedang.</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\zencoso.png" alt="Zencoso">
+                <h3>Belixz ZENCOSO CHEWABLE BALL</h3>
+                <p>Zencoso Chewable Ball disepadukan dengan pati indah daripada tumbuhan tropika dan sederhana (4 musim) yang sangat berkhasiat.</p>
+            
+            <!-- WhatsApp Booking Button -->
+            <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                Tempah melalui WhatsApp
+            </a>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\slendglow.jpg" alt="Slendglow">
+                <h3>Belixz SLENDGLOW</h3>
+                <p>SlendGlow, diperbuat daripada 11 herba semula jadi teruji, menyokong pengurusan berat badan secara sihat.</p>
+ 
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\spirulina.jpg" alt="Spiruline">
+                <h3>Belixz SPIRULINA</h3>
+                <p>BElixz SPIRULINA adalah suplemen organik kaya vitamin & mineral, sesuai untuk kesihatan dewasa.</p>
+ 
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+</body>
+</html>

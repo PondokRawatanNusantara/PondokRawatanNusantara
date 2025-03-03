@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk BE - Pondok Rawatan Nusantara</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EAF6FF; /* Soft Blue Background */
+            color: #002B5B; /* Dark Blue Text */
+        }
+
+        header {
+            background-color: #004C99; /* Deep Blue */
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366; /* Dark Navy */
+        }
+
+        nav a {
+            color: #FFFFFF; /* White */
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #87CEEB; /* Light Blue */
+            color: #003366; /* Dark Navy */
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .content h2 {
+            color: #004C99; /* Deep Blue */
+            text-align: center;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .product-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-item img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product-item h3 {
+            color: #004C99; /* Deep Blue */
+        }
+
+        .product-item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .product-item .price {
+            font-size: 18px;
+            color: #004C99; /* Deep Blue */
+            font-weight: bold;
+        }
+
+        .booking-button, .whatsapp-button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .booking-button {
+            background-color: #003366; /* Dark Blue */
+        }
+
+        .booking-button:hover {
+            background-color: #004C99;
+        }
+
+        .whatsapp-button {
+            background-color: #25D366; /* WhatsApp Green */
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1DA851;
+        }
+
+        .info-button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            text-align: center;
+            background-color: #002B5B; /* Dark Blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .info-button:hover {
+            background-color: #004C99; /* Slightly lighter blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>BEYANG</h1>
+    </header>
+
+    <!-- Navigation Panel -->
+    <nav>
+        <a href="index.html">Laman Utama</a>
+        <a href="servis-perempuan.html">Rawatan Perempuan</a>
+        <a href="servis-lelaki.html">Rawatan Lelaki</a>
+        <a href="produk.html">Produk PRN</a>
+        <a href="be.html">Produk BE</a>
+        <a href="info.html">Informasi</a>
+        <a href="contact.html">Hubungi Kami</a>
+    </nav>
+
+    <!-- Content -->
+    <div class="content">
+        <h2>BEYANG</h2>
+
+        <!-- Product Grid -->
+        <div class="product-grid">
+           <!-- Product 1 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\IP-PA1-CREAM.jpg" alt="IP-PA1 Cream">
+                <h3>BEYANG IP-PA1 CREAM</h3>
+                <p>Nutrisi, hidrasi, dan segarkan kulit kering dan kusam dengan krim IP-PA1. Bebas bahan kimia berbahaya, ia memastikan kulit kekal anjal, lembut, dan awet muda.</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\BEYANG-LAUNDRY.jpg" alt="Delicate Laundry Wash">
+                <h3>BEYANG DELICATE LAUNDRY WASH</h3>
+                <p>BEYANG Delicate Laundry Wash ialah pencuci pakaian pekat dengan formulasi lembut dan ringan, sesuai untuk penjagaan fabrik mewah dan perlindungan kulit.</p>
+  
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\caffe.jpg" alt="Caffe">
+                <h3>BEYANG CAFFE</h3>
+                <p>BEYANG Caffe menggabungkan biji kopi Arabica dan Robusta untuk rasa kopi yang kaya. Diperkaya dengan Nutritional Yeast B-Complex dan Alpinia galanga (enXtra), ia membantu mengekalkan tenaga dan fokus sepanjang hari!</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\intimate-foam-wash.jpg" alt="Intimate Foam Wash">
+                <h3>BEYANG INTIMATE FOAM WASH</h3>
+                <p>Intimate Foam Wash diformulasikan khas untuk kebersihan intim dengan buih ultra-halus dan lembut, membersih dengan lembut sambil mengekalkan kelembapan dengan γ-PGA yang dipatenkan.</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\reju-soap.jpg" alt="Rejuvenating Soap">
+                <h3>BEYANG REJUVENATING HANDCRAFTED SOAP BAR</h3>
+                <p>Arang aktif membantu mengawal kulit berminyak dan melembutkan kulit. Gabungan sempurna Lavender, Avokado, dan Minyak Serai memberikan aroma mewah! Sesuai untuk semua jenis kulit dan selamat untuk kegunaan harian.</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\bright-soap.jpg" alt="Brightening Soap">
+                <h3>BEYANG BRIGTENING HANDCRAFTED SOAP BAR</h3>
+                <p>Mutiara dikenali sebagai agen pencerah semula jadi, sebab itulah sabun ini dicipta. Dengan bahan berkualiti termasuk mutiara asli, ia membantu meremajakan kulit dan mencerahkan wajah. Sesuai untuk semua jenis kulit dan boleh digunakan hingga tiga kali sehari.</p>
+
+                <!-- WhatsApp Booking Button -->
+                <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                    Tempah melalui WhatsApp
+                </a>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-item">
+                <img src="GAMBAR WEBSITE\nourish-soap.jpg" alt="Nourishng Soap">
+                <h3>BEYANG NOURISHING HANDCRAFTED SOAP BAR</h3>
+                <p>Sabun ini direka untuk semua, dengan bahan asas yang menenangkan serta melembapkan kulit dengan nutrisi dari susu dan shea butter. Sesuai untuk semua jenis kulit dan boleh digunakan hingga tiga kali sehari.</p>
+
+            <!-- WhatsApp Booking Button -->
+            <a href="https://bit.ly/3PR63q5" target="_blank" class="whatsapp-button">
+                Tempah melalui WhatsApp
+            </a>
+            </div>
+</body>
+</html>
