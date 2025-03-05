@@ -79,6 +79,31 @@
             text-decoration: underline;
         }
 
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .contact-item img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .contact-item a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: #004C99; /* Warna biru gelap */
+        }
+
+        .contact-item span {
+            font-size: 18px;
+            font-weight: bold;
+            color: #004C99; 
+        }
+
         .form-section {
             margin-top: 40px;
             padding: 20px;
@@ -138,25 +163,40 @@
         margin-top: 20px;
         }
 
-    .logout-button {
-        display: inline-block;
-        padding: 10px 20px;
-        font-size: 16px;
-        font-weight: bold;
-        color: white;
-        background-color: #004C99; /* Deep Blue */
-        border: none;
-        border-radius: 5px;
-        text-decoration: none;
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.2s ease;
-     }
+        .logout-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #004C99; /* Deep Blue */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
 
-    .logout-button:hover {
-        background-color: #003366; /* Dark Navy */
-        transform: scale(1.05);
-        text-decoration: none;
-    }
+        .logout-button:hover {
+            background-color: #003366; /* Dark Navy */
+            transform: scale(1.05);
+            text-decoration: none;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none; /* Buang garisan bawah link */
+            color: #000; /* Warna teks */
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .social-link img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
 
     </style>
 </head>
@@ -186,52 +226,53 @@
         <!-- Contact Information -->
         <div class="contact-info">
             <h3>Hubungi Kami:</h3>
-            <p>
+            <div class="contact-item">
                 <a href="https://bit.ly/3DVugsq" target="_blank">
-                <img src="GAMBAR WEBSITE\wa-icon.png"  alt="Whatsapp" style="width: 30px; height: 30px; margin-right: 10px;">
-                Cikgu Lan
+                    <img src="GAMBAR WEBSITE/wa-icon.png" alt="Whatsapp">
+                    Cikgu Lan
                 </a>
-            </p>
-            <p>
+            </div>
+            <div class="contact-item">
                 <a href="https://bit.ly/3DYjGB7" target="_blank">
-                <img src="GAMBAR WEBSITE\wa-icon.png" alt="Whatsapp" style="width: 30px; height: 30px; margin-right: 10px;">
-                Puan Hamidah
+                    <img src="GAMBAR WEBSITE/wa-icon.png" alt="Whatsapp">
+                    Puan Hamidah
                 </a>
-            </p>
-            <p>
-                <img src="GAMBAR WEBSITE\email-icon.png" alt="Email" style="width: 30px; height: 30px; margin-right: 10px;">
+            </div>
+            <div class="contact-item">
+                <img src="GAMBAR WEBSITE/email-icon.png" alt="Email">
                 <span>akademirefleksologibg17@gmail.com</span>
-            </p>            
+            </div>
         </div>
 
         <!-- Social Media -->
         <div class="social-media">
             <h3>Ikuti Kami di Sosial Media :</h3>
             <p>
-                <a href="https://www.instagram.com/pondokrawatannusantara_" target="_blank">
-                    <img src="GAMBAR WEBSITE\ig.png" alt="Instagram" style="width: 30px; height: 30px; margin-right: 10px;">
+                <a href="https://www.instagram.com/pondokrawatannusantara_" target="_blank" class="social-link">
+                    <img src="GAMBAR WEBSITE/ig.png" alt="Instagram">
                     Instagram
                 </a>
             </p>
             <p>
-                <a href="https://www.facebook.com/share/1BHM4iCXdh/" target="_blank">
-                    <img src="GAMBAR WEBSITE\fb-icon.png" alt="Facebook" style="width: 30px; height: 30px; margin-right: 10px;">
+                <a href="https://www.facebook.com/share/1BHM4iCXdh/" target="_blank" class="social-link">
+                    <img src="GAMBAR WEBSITE/fb-icon.png" alt="Facebook">
                     Facebook
                 </a>
             </p>
             <p>
-                <a href="https://www.tiktok.com/@pondokrawatannusantara?_t=ZS-8tEuxdEXtdA&_r=1" target="_blank">
-                    <img src="GAMBAR WEBSITE\tt-icon.png" alt="TikTok" style="width: 30px; height: 30px; margin-right: 10px;">
+                <a href="https://www.tiktok.com/@pondokrawatannusantara?_t=ZS-8tEuxdEXtdA&_r=1" target="_blank" class="social-link">
+                    <img src="GAMBAR WEBSITE/tt-icon.png" alt="TikTok">
                     TikTok
                 </a>
             </p>
             <p>
-                <a href="https://youtube.com/@pondokrawatannusantara8116?si=pXLZHfQii2aFRALo" target="_blank">
-                    <img src="GAMBAR WEBSITE\yt-icon.png" alt="YouTube" style="width: 30px; height: 30px; margin-right: 10px;">
+                <a href="https://youtube.com/@pondokrawatannusantara8116?si=pXLZHfQii2aFRALo" target="_blank" class="social-link">
+                    <img src="GAMBAR WEBSITE/yt-icon.png" alt="YouTube">
                     YouTube
                 </a>
             </p>
         </div>
+
 
         <!-- Feedback -->
         <div class="form-section" style="text-align: center;">
