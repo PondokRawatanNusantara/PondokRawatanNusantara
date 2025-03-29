@@ -32,7 +32,7 @@
         }
 
         nav a {
-            color: #FFFFFF; /* White */
+            color: #FFFFFF;
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
@@ -40,42 +40,72 @@
         }
 
         nav a:hover {
-            background-color: #87CEEB; /* Light Blue */
-            color: #003366; /* Dark Navy */
+            background-color: #87CEEB;
+            color: #003366;
         }
 
         .content {
             padding: 20px;
-            max-width: 800px;
+            max-width: 1100px;
             margin: auto;
         }
 
         .content h2 {
-            color: #004C99; /* Deep Blue */
+            color: #004C99;
             text-align: center;
             margin-bottom: 20px;
         }
 
+        /* Article Grid */
+        .article-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
         .article {
-            margin-bottom: 30px;
+            background-color: white;
             padding: 20px;
-            border: 1px solid #ccc;
             border-radius: 10px;
-            background-color: #fff;
+            border: 1px solid #ccc;
+            text-align: center;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .article img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
         }
 
         .article h3 {
-            color: #005b99; /* Medium Blue */
-            margin-bottom: 10px;
+            color: #005b99;
+            margin-top: 15px;
         }
 
         .article p {
             line-height: 1.6;
         }
 
+        .article a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #004C99;
+            font-weight: bold;
+            background-color: #EAF6FF;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        .article a:hover {
+            background-color: #87CEEB;
+            color: #003366;
+        }
+
         footer {
             text-align: center;
-            background-color: #003366; /* Dark Navy */
+            background-color: #003366;
             color: white;
             padding: 10px;
             margin-top: 40px;
@@ -89,8 +119,8 @@
         <h1>Informasi Perubatan Tradisional</h1>
     </header>
 
-      <!-- Navigation Panel -->
-      <nav>
+    <!-- Navigation Panel -->
+    <nav>
         <a href="index.html">Laman Utama</a>
         <a href="servis-perempuan.html">Rawatan Perempuan</a>
         <a href="servis-lelaki.html">Rawatan Lelaki</a>
@@ -102,84 +132,87 @@
 
     <!-- Banner -->
     <div style="text-align: center; margin: 20px 0;">
-        <img src="GAMBAR WEBSITE\info.jpg" alt="Banner" style="max-width: 100%; height: auto;">
+        <img src="GAMBAR WEBSITE/info.jpg" alt="Banner" style="max-width: 100%; height: auto;">
     </div>
 
     <!-- Content -->
     <div class="content">
         <h2>Bahagian Informasi</h2>
 
-        <!-- Article 1 -->
-        <div class="article">
-            <h3>Perubatan Tradisional</h3>
-            <p>
-                Perubatan tradisional merupakan kaedah perubatan yang telah memberi sumbangan penting dalam penjagaan kesihatan manusia sebelum munculnya perubatan moden. Perubatan tradisional yang asli adalah tanpa menggunakan bahan-bahan kimia seperti perubatan moden. Kepelbagaian alam semulajadi telah dijadikan salah satu sumber utama dalam kaedah perubatan tradisional. Perubatan ini banyak menggunakan tumbuh-tumbuhan dan herba.
-            </p>
-            <p>
+        <!-- Article Grid -->
+        <div class="article-container">
+            <!-- Article 1 -->
+            <div class="article">
+                
+                <h3>Perubatan Tradisional</h3>
+                <p>
+                    Perubatan tradisional adalah kaedah rawatan yang tidak menggunakan bahan kimia, sebaliknya memanfaatkan sumber semula jadi seperti herba dan tumbuhan.
+                </p>
                 <a href="https://www.heritage.gov.my/en/pengenalan-cawangan-adat-budaya/perubatan-tradisi.html#:~:text=Perubatan%20tradisional%20merupakan%20kaedah%20perubatan,bahan%20kimia%20seperti%20perubatan%20moden." target="_blank">
-                    Klik di sini untuk maklumat lanjut mengenai Perubatan Tradisional.
+                    Baca Selanjutnya
                 </a>
-            </p>
-        </div>
+            </div>
 
-        <!-- Article 2 -->
-        <div class="article">
-            <h3>Apa itu Bekam?</h3>
-            <p>
-                Bekam adalah kaedah membuang toksin dengan mengeluarkan darah kotor dari permukaan kulit sepertimana yang diamalkan Rasulullah SAW dan para sahabat. Diperkuatkan dengan beberapa hadis sahih yang menjelaskan mengenai rawatan bekam, ia dikatakan sebagai kaedah yang boleh membantu mengubati segala penyakit.
-            </p>
-            <p>
+            <!-- Article 2 -->
+            <div class="article">
+                
+                <h3>Apa itu Bekam?</h3>
+                <p>
+                    Bekam adalah kaedah membuang toksin dengan mengeluarkan darah kotor dari permukaan kulit, seperti yang diamalkan oleh Rasulullah SAW.
+                </p>
                 <a href="https://isn.gov.my/apa-itu-bekam/" target="_blank">
-                    Klik di sini untuk maklumat lanjut mengenai Bekam.
+                    Baca Selanjutnya
                 </a>
-            </p>
-        </div>
+            </div>
 
-        <!-- Article 3 -->
-        <div class="article">
-            <h3>Apa itu Rawatan Refleksologi?</h3>
-            <p>
-                Rawatan urut tradisional
-                refleksologi merupakan
-                suatu kaedah
-                pemeliharaan kesihatan
-                dan penyembuhan
-                penyakit dengan cara
-                menekan titik refleksi yang
-                ada di badan yang mana
-                titik refleksi tersebut
-                berhubung dengan kelenjar
-                dan organ-organ tubuh
-                berkaitan. 
-            </p>
-            <p>
+            <!-- Article 3 -->
+            <div class="article">
+                
+                <h3>Apa itu Refleksologi?</h3>
+                <p>
+                    Rawatan refleksologi membantu penyembuhan melalui tekanan pada titik refleksi yang berkaitan dengan organ-organ dalam badan.
+                </p>
                 <a href="https://www.anm.gov.my/anm_app/4/ekursus/NotaKursusBulanan/Reflexology%20Berkesan_4_2016.pdf" target="_blank">
-                    Klik di sini untuk maklumat lanjut mengenai Refleksologi.
+                    Baca Selanjutnya
                 </a>
-            </p>
-        </div>
+            </div>
 
-        <!-- Article 4 -->
-         <div class="article">
-            <h3>Perubatan Tradisional Melayu</h3>
-            <p>
-                Menurutnya, terdapat empat cabang amalan perubatan tradisional dan komplimentari yang diiktiraf KKM iaitu urutan, herba, bekam dan penjagaan ibu selepas bersalin.
-
-                Jelasnya, bagi urutan, ia terbahagi kepada dua kategori iaitu urutan kesegaran dan urutan terapi serta penjagaan.
+            <!-- Article 4 -->
+            <div class="article">
                 
-                "Herba pula ialah rawatan menggunakan tumbuhan herba dan bahan alami sama ada dimakan atau digunakan serta lain-lain.
-                
-                "Ketiga adalah bekam yang terbahagi kepada dua jenis iaitu bekam angin dan bekam basah (mengeluarkan darah).
-                
-                "Cabang amalan terakhir ialah penjagaan ibu selepas bersalin. Ia sangat popular dan rawatan ini mengikut acuan perubatan Melayu," katanya
-            </p>
-            <p>
+                <h3>Perubatan Tradisional Melayu</h3>
+                <p>
+                    Perubatan Melayu merangkumi rawatan seperti urutan, herba, bekam, dan penjagaan ibu selepas bersalin yang diwarisi secara turun-temurun.
+                </p>
                 <a href="https://www.hmetro.com.my/sihat/2021/05/704059/perubatan-tradisional-melayu" target="_blank">
-                    Klik di sini untuk maklumat lanjut mengenai Perubatan Tradisional.
+                    Baca Selanjutnya
                 </a>
-            </p>
-         </div>
+            </div>
 
+            <!-- Article 5 -->
+            <div class="article">
+
+                <h3>Apa itu Akupunktur</h3>
+                <p>
+                    Rawatan akupunktur merupakan salah satu pendekatan alternatif yang menarik dalam pemulihan pesakit angin ahmar. Dengan merangsang titik-titik akupuntur tertentu, ia dapat membantu meningkatkan peredaran darah, mengurangkan keradangan, merangsang pengeluaran endorphin, dan meningkatkan fungsi saraf.
+                </p>
+                <a href="https://iswanahacupuncture.com/rawatan-akupuntur-strok/#:~:text=Rawatan%20akupunktur%20merupakan%20salah%20satu,endorphin%2C%20dan%20meningkatkan%20fungsi%20saraf." target="_blank">
+                    Baca Selanjutnya
+                </a>
+            </div>
+
+            <!-- Article 6 -->
+            <div class="article">
+
+                <h3>Urutan Ibu Hamil</h3>
+                <p>
+                    Berurut ketika hamil mampu mengurangkan kesakitan, melegakan kekejangan otot, meningkatkan aktiviti fizikal dan keseluruhan tubuh ibu hamil.
+                </p>
+                <a href="https://www.hmetro.com.my/WM/2021/06/714723/berurut-ketika-hamil" target="_blank">
+                    Baca Selanjutnya
+                </a>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
